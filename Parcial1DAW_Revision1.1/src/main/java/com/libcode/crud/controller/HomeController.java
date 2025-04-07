@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "index"; // Renderiza templates/index.html
+        return "index"; 
     }
 }
