@@ -30,7 +30,7 @@ public class EstudianteController {
         return "estudiantes/estudiantesindex";
     }
 
-    // Guardar estudiante (nuevo o editado)
+    // Guardar estudiante 
     @PostMapping("/guardar")
     public String guardarEstudiante(@ModelAttribute Estudiante estudiante,
                                     RedirectAttributes redirectAttributes) {
